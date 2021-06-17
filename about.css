@@ -96,7 +96,7 @@ span {
 @media screen and (max-width:1000px){
     .about{
         background-size: 100%;
-        padding: 100px 40px;
+        padding: 100px 90px;
     }
     .inner{
         width: 100%;
@@ -105,7 +105,7 @@ span {
 
 @media screen and (max-width:600px){
     .about{
-        padding: 80px;
+        padding: 90px;
     }
     .inner{
         padding: 80px;
