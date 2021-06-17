@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header {
+    background-image: url(https://images.unsplash.com/photo-1593526613712-7b4b9a707330?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    height: 100vh;
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+}
+
+ul {
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+}
+
+ul li {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.3s ease;
+    font-weight: 600;
+}
+
+ul li a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.logo img {
+    float: left;
+    width: 100px;
+    height: auto;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.title p {
+    color: #000;
+    font-size: 21px ;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 20px;
+}
+
+.button {
+    position: absolute;
+   top: 70%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+
+.btn {
+    border: 1px solid #000;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s ease;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: rgb(0,0,0);
+    color: #fff;   
+}
+
+
+.razorpay-embed-btn {
+    margin-top: 30px;
+    background-color: rgba(197, 9, 9, 0.507);
+    padding: 5px 10px;
+    border-radius: 15px;
+    transition: 0.4s ease-in;
+}
+
+.razorpay-embed-btn:hover {
+    background-color: black;
+}
+
+  
+  
