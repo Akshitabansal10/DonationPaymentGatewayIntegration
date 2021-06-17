@@ -105,9 +105,9 @@ span {
 
 @media screen and (max-width:600px){
     .about{
-        padding: 0;
+        padding: 80px;
     }
     .inner{
-        padding: 60px;
+        padding: 80px;
     }
 }
